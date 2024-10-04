@@ -2,9 +2,11 @@
 """
 This module contains a function to generate Pascal's triangle.
 
-The function `pascal_triangle(n)` returns a list of lists representing 
+The function `pascal_triangle(n)` returns a list of lists representing
 the Pascal's triangle of size `n`.
 """
+
+
 def pascal_triangle(n):
     """Returns a list of lists representing Pascal's triangle of size n."""
     if n <= 0:
